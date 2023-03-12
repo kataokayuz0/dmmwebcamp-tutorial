@@ -31,21 +31,21 @@ main {
 
 .step-image1 {
   height: 150px;
-  background-image: url(../img/flow01.png);
+  background-image: url(flow01.png);
   background-position: bottom;
   background-size: cover; /*縦横比を維持したまま背景領域を埋め尽くす*/
 }
 
 .step-image2 {
   height: 150px;
-  background-image: url(../img/flow02.png);
+  background-image: url(flow02.png);
   background-position: bottom;
   background-size: cover; /*縦横比を維持したまま背景領域を埋め尽くす*/
 }
 
 .step-image3 {
   height: 150px;
-  background-image: url(../img/flow03.png);
+  background-image: url(flow03.png);
   background-position: bottom;
   background-size: cover; /*縦横比を維持したまま背景領域を埋め尽くす*/
 }
@@ -69,7 +69,7 @@ main {
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .heading {
     width: 100%;
   }
